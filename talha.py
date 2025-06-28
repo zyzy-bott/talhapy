@@ -3,6 +3,7 @@ from time import sleep
 from os import system
 from sms import SendSms
 import threading
+import sms
 
 servisler_sms = []
 for attribute in dir(SendSms):
